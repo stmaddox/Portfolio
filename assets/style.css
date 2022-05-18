@@ -33,7 +33,6 @@ header nav ol li a {
     padding: 10px 15px;
     font-size: 34px;
     text-align: right;
-    float: right;
     color:black;
 }
 
@@ -42,11 +41,10 @@ header nav ol li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    
 }
 #about-me h2 {
     font-size: 40px;
-    float: left;
     padding: 10px 10px;
 }
 .me img {
@@ -87,4 +85,18 @@ header nav ol li a {
 }
 br {
     clear: both;
+}
+/* my work */
+.work a {
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 2%;
+}
+
+#my-work h2 {
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
 }
