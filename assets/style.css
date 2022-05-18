@@ -13,6 +13,8 @@ header {
     text-align: right;
     padding: 20px 35px;
     align-items: center;
+    background-color: #184e77;
+    color: #99d98c;
 }
 header h1 {
     width: 20%;
@@ -31,7 +33,7 @@ header nav ol li a {
     padding: 10px 15px;
     font-size: 34px;
     text-align: right;
-    color:black;
+    color: #99d98c;
 }
 
 /* about me */
@@ -39,6 +41,8 @@ header nav ol li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #99d98c;
+    color: #184e77;
     
 }
 #about-me h2 {
@@ -46,6 +50,7 @@ header nav ol li a {
     padding: 10px 10px;
     font-style: italic;
     text-decoration: underline solid 2px;
+    background-color: #99d98c;
 }
 #about-me h3 {
     font-size: 32px;
@@ -69,62 +74,81 @@ header nav ol li a {
 }
 
 /* my work */
-#my-work .my-work {
+.my-work .work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    background-color: #184e77;
 }
 .work a {
+    width: 100%;
     text-decoration: none;
     font-size: 26px;
     margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
+    background-color: #184e77;
+    color: #99d98c;
+
 }
 #my-work h2 {
+    width: 100%;
     font-size: 40px;
+    padding: 25px;
     font-style: italic;
-    margin-top: 25px;
     display: flex;
     justify-content: center;
     text-decoration: underline solid 2px;
+    background-color: #184e77;
+    color: #99d98c;
 }
 
 /* contact me */
-#contact .contact {
+#contact .contact .my-contact {
     display: flex;
     flex-wrap: wrap;
+    background-color: #99d98c;
 }
 .my-contact {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    background-color: #99d98c;
+    color: #184e77;
 }
 .my-contact a {
+    width: 100%;
     text-decoration: none;
     font-size: 26px;
-    margin-top: 20px;
     display: flex;
+    margin-right: 85px;
+    margin-bottom: 50px;
     justify-content: space-around;
-    text-align: center;
+    background-color: #99d98c;
+    color: #184e77;
 }
 #contact h2 {
+    width: 100%;
     font-size: 40px;
+    padding-bottom: 25px;
     font-style: italic;
-    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: underline solid 2px;
+    background-color: #99d98c;
+    color: #184e77;
 }
 
 .my-contact .contact-info img {
     display: flex;
-    max-height: 75px;
-    max-width: 75px;
+    margin-bottom: -50px;
+    max-height: 70px;
+    max-width: 70px;
     flex-wrap: wrap;
     float: left;
-    margin-bottom: 15px;
 }
 br {
     clear: both;
