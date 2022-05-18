@@ -22,8 +22,6 @@ header a{
 }
 header nav {
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end;
 }
 header nav ol li {
@@ -46,10 +44,15 @@ header nav ol li a {
 #about-me h2 {
     font-size: 40px;
     padding: 10px 10px;
+    font-style: italic;
+    text-decoration: underline solid 2px;
+}
+#about-me h3 {
+    font-size: 32px;
 }
 .me img {
     width: 600px;
-    height: 600px;
+    height: 655px;
 }
 #about-me .about {
     float: right;
@@ -65,38 +68,64 @@ header nav ol li a {
     /*float: right;*/ 
 }
 
-/* contact me */
-.contact {
+/* my work */
+#my-work .my-work {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.my-contact {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
-.my-contact a {
-    text-decoration: none;
-    font-size: 26px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    margin-top: 5%;
-}
-br {
-    clear: both;
-}
-/* my work */
 .work a {
     text-decoration: none;
     font-size: 26px;
     margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+#my-work h2 {
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline solid 2px;
 }
 
-#my-work h2 {
+/* contact me */
+#contact .contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-contact {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.my-contact a {
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#contact h2 {
     font-size: 40px;
     font-style: italic;
     margin-top: 2%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    text-decoration: underline solid 2px;
+}
+
+.my-contact .contact-info img {
+    display: flex;
+    max-height: 75px;
+    max-width: 75px;
+    flex-wrap: wrap;
+    float: left;
+    margin-bottom: 15px;
+}
+br {
+    clear: both;
 }
